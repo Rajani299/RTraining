@@ -1,0 +1,11 @@
+1.CREATE TABLE DEPARTMENT(iDeptID INT NOT NULL PRIMARY KEY,cDeptName varchar(255)values(101,IT,102,ACCOUNT,103,SALES,104,HR));
+2.CREATE TABLE Employee(iEmpid INT NOT NULL PRIMARY KEY,cEmpName char NOT NULL,vAddress Varchar(255) ,vEmail Varchar(255),cDesignation char,iDeptid INT NOT NULL FOREIGN KEY, dDOJ INT NOT NULL,mSalary INT NOT NULL);
+3.INSERT INTO Employee(iEmpid,cEmpNAME,vAddress,vEMailid,cDesignation,iDeptid,dDOJ,mSalary)Values(1001,Raj,India,raj@morningstar.com,Gm,101,2/1/2015,90000);
+
+PART B
+1 SELECT *Employee where salary(min(salary));
+2 SELECT Executive, manager FROM Employee WHERE (SALARY>60000);
+3 SELECT * Employee WHERE (ADRESS=NULL);
+4 SELECT Employee Name,Designation, Department Slary FROM Employee:
+5 
+
